@@ -1,0 +1,2 @@
+export const GET_ERRORS = "GET_ERRORS";
+export const REGISTER_NEW_USER = "REGISTER_NEW_USER";

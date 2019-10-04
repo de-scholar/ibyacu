@@ -1,0 +1,137 @@
+body {
+  background: rgba(92, 1, 77, 0.199);
+}
+.custom-body {
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 1%;
+  justify-content: center;
+}
+.bg-custom {
+  background-color: rgba(58, 0, 58, 0.856);
+  top: 0;
+}
+.transparent-background {
+  background-color: #00000042;
+}
+.sticky-element {
+  position: sticky;
+  z-index: 1;
+}
+.fixed-bottom-center-element {
+  position: fixed;
+  z-index: 1;
+  right: 20%;
+  left: 20%;
+  bottom: 40%;
+}
+.field-error {
+  background-color: rgb(240, 3, 3);
+  color: #ffffff;
+  font-size: 12px;
+  padding: 5px;
+}
+.field-success {
+  background-color: rgb(1, 71, 1);
+  color: #ffffff;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.rounded-corner {
+  border-radius: 30px;
+}
+.rounded-left-corners {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.rounded-right-corners {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.hand-cursor {
+  cursor: pointer;
+}
+.hidden-div {
+  display: none;
+}
+.white-elements {
+  background-color: #ffffff;
+  color: #000000;
+}
+.light-purple-element {
+  background-color: rgba(99, 1, 99, 0.404);
+  color: #ffffff;
+}
+.black-element {
+  background-color: #000000;
+  color: #ffffff;
+}
+.blue-element {
+  background-color: rgb(1, 1, 66);
+  color: #ffffff;
+}
+.orange-element {
+  background-color: rgba(71, 4, 1, 0.781);
+  color: #ffffff;
+}
+.green-element {
+  background-color: rgba(22, 104, 90, 0.781);
+  color: #ffffff;
+}
+.bordered-element {
+  border: 2px solid rgba(99, 1, 99, 0.404);
+}
+.padding-10 {
+  padding: 10px;
+}
+.no-underline-on-hover:hover {
+  text-decoration: none;
+}
+.text-12 {
+  font-size: 12px;
+}
+.small-textview {
+  height: 100px;
+  text-align: justify;
+  overflow: hidden;
+}
+/* .small-textview:hover {
+  height: 100px;
+  text-align: justify;
+  overflow: scroll;
+} */
+
+.width-wide {
+  width: 300%;
+}
+.width-full {
+  width: 100%;
+}
+.width-90 {
+  width: 90%;
+}
+.heigth-full {
+  height: 100%;
+}
+.heigth-75 {
+  height: 75%;
+}
+.heigth-half {
+  height: 50%;
+}
+.heigth-25 {
+  height: 25%;
+}
+.heigth-10 {
+  height: 10%;
+}
+.wrap-content {
+  width: fit-content;
+  height: fit-content;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
